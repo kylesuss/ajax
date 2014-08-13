@@ -16,4 +16,4 @@ var params = {
 Ajax.post(url, params, success, error);
 ```
 
-> Note that success and error are callbacks and can be passed in as functions.
+> Note that the success and error arguments are callbacks and can be passed in as functions.
