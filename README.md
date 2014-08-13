@@ -13,7 +13,7 @@ var params = {
   firstName: 'Austin',
   lastName:  'Powers'
 }
-Ajax.get(url, params, success, error);
+Ajax.post(url, params, success, error);
 ```
 
 > Note that success and error are callbacks and can be passed in as functions.
